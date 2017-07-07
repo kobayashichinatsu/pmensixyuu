@@ -1,0 +1,54 @@
+body {
+font-family: 'Lucida Grande','Hiragino Kaku Gothic ProN',Meiryo, sans-serif;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+background-image: url("http://kabegami.tank.jp/fo-veg/fo-veg01/b.gif")
+}
+
+img {
+max-width: 100%;
+height: auto;
+display:block;
+}
+
+.container {
+margin: 0px auto;
+max-width: 800px;
+background-image: url("http://kabegami.tank.jp/fo-veg/fo-veg01/a.gif")
+}
+
+a:link       {color:#DC143C;text-decoration:none;}
+a:visited    {color:#DC143C;text-decoration:none;}
+a:hover      {color:#DC143C;text-decoration:none;}
+a:active     {color:#DC143C;text-decoration:none;}
+
+h1 {
+font-size: 32px;
+}
+
+h2 {
+font-size: 70px;
+}
+
+.log {
+font-weight:bold;
+}
+
+.back {
+font-size: 30px;
+font-weight:bold;
+}
+
+.menu-box {
+border: 2px solid blue;
+background:#FFFFFF;
+height: 44px;
+}
+
+.content {
+border: 2px solid #000000;
+text-align: center;
+height: 600px;
+}

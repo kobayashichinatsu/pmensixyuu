@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>ログイン画面</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="decorate.css">
+ </head>
+
+ <body>
+ <div class="container">
+ <div class="content">
+  <h1>新規会員登録</h1>
+  <form action="member.php" method="post">
+    <p>名前を入力してください。</p>
+   <input type="text" name="name" placeholder="名前" maxlength="10">
+    <p>学籍番号を入力してください。</p>
+   <input type="text" name="mail" placeholder="学籍番号" maxlength="7">
+    <p>パスワードを入力してください。</p>
+   <input type="password" name="pass" placeholder="パスワード" maxlength="10"><br><br>
+   <input type="submit" value="追加"><br><br>
+   <a href="login.php">戻る</a>
+  </form>
+ </div>
+ </div>
+ </body>
+</html>

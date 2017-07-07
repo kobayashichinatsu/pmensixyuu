@@ -1,0 +1,122 @@
+.menu-box {
+height: auto;
+position: absolute;
+position: fixed;
+top: 0px;
+left: 0px;
+}
+
+#menu{
+width: 100%;
+max-width: 960px;
+margin: 0 auto;
+padding: 0;
+display: none;
+}
+
+#menu li{
+display: block;
+float: left;
+width: 100%;
+margin-left: 0;
+margin-bottom: 30px;
+padding: 0;
+}
+
+#menu li a{
+display: block;
+padding: 10px 0 10px;
+color: #fff;
+font-size: 16px;
+font-weight:bolder;
+text-align: center;
+text-decoration: none;
+}
+
+#menu li:nth-child(1){
+background: #000000;
+}
+
+#menu li:nth-child(2){
+background: #0aff0a;
+}
+
+#menu li:nth-child(3){
+background: #ff840a;
+}
+
+#menu li:nth-child(4){
+background: #0a0aff;
+}
+
+#menu li:nth-child(5){
+background: #ff0a84;
+}
+
+#menu li:nth-child(6){
+background: #840aff;
+}
+
+#menu li:nth-child(7){
+background: #EF1C1C;
+}
+
+#menu li:nth-child(8){
+background: #1DA1F2;
+}
+
+#menu li:nth-child(1) a:hover{
+background: #999999;
+}
+
+#menu li:nth-child(2) a:hover{
+background: #999999;
+}
+
+#menu li:nth-child(3) a:hover{
+background: #999999;
+}
+
+#menu li:nth-child(4) a:hover{
+background: #999999;
+}
+
+#menu li:nth-child(5) a:hover{
+background: #999999;
+}
+
+#menu li:nth-child(6) a:hover{
+background: #999999;
+}
+
+#menu li:nth-child(7) a:hover{
+background: #999999;
+}
+
+#menu li:nth-child(8) a:hover{
+background: #999999;
+}
+
+#toggle{
+display: block;
+position: relative;
+width: 100%;
+background: #222;
+}
+#toggle a{
+display: block;
+position: relative;
+padding: 12px 0 10px;
+border-bottom: 1px solid #444;
+color: transparent;
+text-align: center;
+text-decoration: none;
+}
+#toggle:before{
+display: block;
+content: "";
+position: absolute;
+width: 45px;
+height: 45px;
+background: #fff;
+}

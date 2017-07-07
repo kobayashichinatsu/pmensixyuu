@@ -1,0 +1,97 @@
+input[type=text] {
+    border: 2px solid #000000;
+    font-size:20px; 
+}
+
+input[type=password] {
+    border: 2px solid #000000;
+    font-size:20px; 
+}
+
+
+
+input[type=submit] {
+    display: inline-block;
+    padding: 5px 40px;
+    text-decoration: none;
+    font-weight:bold;
+    background:#fcb22c ;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+input[type=submit]:active {
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+
+
+
+input[type=reset] {
+    font-weight:bold;
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    background: #fe750e;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+    
+input[type=reset]:active {
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+
+
+
+
+input[type=button] {
+    font-weight:bold;
+    display: inline-block;
+    padding: 5px 40px;
+    text-decoration: none;
+    background: #89c01c;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+input[type=button]:active {
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+
+
+
+button.button1 {
+    width:200px;
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:10px 10px;
+    margin-right: 150px;
+    color:#fff;
+    background-color:#49a9d4;
+    border-radius:30px;
+}
+
+button.button2 {
+    width:200px;
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:10px 10px;
+    color:#fff;
+    background-color:#49a9d4;
+    border-radius:30px;
+}
