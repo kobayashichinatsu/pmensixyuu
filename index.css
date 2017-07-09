@@ -26,11 +26,17 @@ a:active     {color:#DC143C;text-decoration:none;}
 
 h1 {
 font-size: 32px;
+border-bottom: dashed 4px #627295;
 }
 
 h2 {
 font-size: 50px;
 font-family: 'MS UI Gothic','ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+border-bottom: dashed 4px #627295;
+}
+
+h3{
+font-size: 50px;
 }
 
 .log {

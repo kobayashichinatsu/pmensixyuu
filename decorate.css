@@ -36,7 +36,7 @@ input[type=reset] {
     display: inline-block;
     padding: 5px 20px;
     text-decoration: none;
-    background: #fe750e;
+    background: #ff6347;
     color: #FFF;
     border-bottom: solid 4px #627295;
     border-radius: 3px;
@@ -58,7 +58,7 @@ input[type=button] {
     display: inline-block;
     padding: 5px 40px;
     text-decoration: none;
-    background: #89c01c;
+    background: #37a34a;
     color: #FFF;
     border-bottom: solid 4px #627295;
     border-radius: 3px;
@@ -72,36 +72,37 @@ input[type=button]:active {
 
 
 
-
 button.button1 {
   width: 250px;
-  height: 200px;
+  height: 250px;
   font-size: 34px;
-  border:12px solid #89c01c;
-  background-color: #89c01c;
+  border-radius:125px;
+  border:12px solid #37a34a;
+  background-color: #37a34a;
   color: #fff;
   transition: .6s all;
 }
 
 button.button1:hover{
-    border:3px solid #89c01c;
+    border:3px solid #37a34a;
   background-color: rgba(147,162,0,.0);
-  color:#89c01c;
+  color:#37a34a;
 }
 
 
 button.button2 {
   width: 250px;
-  height: 200px;
+  height: 250px;
   font-size: 34px;
-  border:12px solid #fcb22c;
-  background-color: #fcb22c;
+  border-radius:125px;
+  border:12px solid #ff6347;
+  background-color: #ff6347;
   color: #fff;
   transition: .6s all;
 }
 
 button.button2:hover{
-    border:3px solid #fcb22c;
+    border:3px solid #ea5550;
   background-color: rgba(147,162,0,.0);
-  color:  #fcb22c;
+  color:  #ea5550;
 }

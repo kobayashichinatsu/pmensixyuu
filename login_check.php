@@ -40,7 +40,7 @@ try {
 
 
     if($rec==false){
-        echo '<h2>学籍番号かパスワードが<br>間違っています。</h2><br><br><br>';
+        echo '<h3>学籍番号かパスワードが<br>間違っています。</h3><br><br><br>';
         echo '<a href="login.php">戻る</a>';
     }
     else{
